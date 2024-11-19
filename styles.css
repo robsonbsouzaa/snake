@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapers.com/images/hd/snake-game-1680-x-1050-background-6syqer1fr6oahe0b.jpg'); /* Caminho da imagem */
+    background-size: cover; /* A imagem vai cobrir toda a tela */
+    background-position: center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#game-container {
+    margin: 20px auto;
+    position: relative;
+    display: inline-block;
+}
+
+#gameCanvas {
+    border: 5px solid #333; /* Borda visível ao redor da área do jogo */
+}
+
+#score-board {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
